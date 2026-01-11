@@ -3,7 +3,7 @@
 
 About My project:
 
-  My project is about identification and how amount of pressure give by user. it is combine of hardward and software that is IOT. using by Piezo plate sensore for pressure to give in surface, and the my much of pressure given show in unity(game engine) by virtual method. in aurdino ide for ESP32 device, and VS code for unity. 
+  My project is about identification and how amount of pressure give by user. it is combine of hardward and software that is IOT. using by Piezo plate sensore for pressure to give in surface, and how much pressure is given show in unity(game engine) by virtual method. in aurdino ide for ESP32 device, and VS code for unity. 
 
  Tools:
 
