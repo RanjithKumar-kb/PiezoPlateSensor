@@ -35,5 +35,21 @@ Parsing: The C# script constantly monitors the Serial Port, splits the incoming 
 Scaling: Using Linear Interpolation ($Lerp$), the script maps the force value to the localScale of a 2D Square.
 
 Animation Decay: A "Return-to-Zero" algorithm is implemented in the Update loop to smoothly shrink the squares back to their original size after the hit, creating a dynamic "bounce" effect.
-
+Application & Use case
+1. Interactive Installation & Digital Art
+This system can be used in museums or art galleries.
+Use: Large-scale "pressure plates" on the floor or wall allow visitors to interact with a digital mural.
+Value: It turns physical movement into a visual, colorful experience, making art "touchable."
+2. Gamified Rehabilitation & Physical Therapy
+The project can be used as a medical tool to help patients recover motor skills.
+Use: Patients are asked to tap specific plates with a certain amount of "Target Force."
+Value: Because the squares in Unity grow based on force, the patient gets instant visual feedback. Doctors can see if the patient has enough strength or coordination in their hands or feet.
+3. Musical Instrument Interface (MIDI Controller)
+Your project is essentially the foundation of a digital drum kit.
+Use: Since you are sending "Force" (Velocity) and "ID" (Note), you can map each square to a sound.
+Value: It allows for the creation of custom, low-cost percussion instruments for musicians or hobbyists.
+4. Industrial Human-Machine Interface (HMI) Prototyping
+Engineers use this setup to test how humans interact with machines.
+Use: Testing "Force-Sensitive" buttons for industrial equipment where a simple "On/Off" click isn't enough.
+Value: It provides a safe, low-cost way to simulate high-tech pressure controls before manufacturing expensive hardware.
 Demo video (in tamil):https://photos.app.goo.gl/41tiEve9xkKJvMje7
